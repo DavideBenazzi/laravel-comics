@@ -1,14 +1,169 @@
 <footer>
     <div class="containerLarge">
+        {{-- LINKS --}}
         <div class="links">
-            <div class="footerLinks">
-                links here....
+            {{-- WRAPFOOTERLINKS --}}
+            <div class="wrapFooterLinks">
+                {{-- FOOTERLINKS --}}
+                <div class="footerLinks">
+                    {{-- LEFT COLUMN --}}
+                    <div class="lt-col">
+                        <h3>DC COMICS</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Characters
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Comics
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Movies
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    TV
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Games
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Videos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    News
+                                </a>
+                            </li>
+                        </ul>
+                        <h3>SHOP</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Shop DC
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Shop DC Collectibles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- CENTER COLUMN --}}
+                    <div class="cnt-col">
+                        <h3>DC</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Terms Of Use
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Privacy Policy (New)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Ad Choices
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Advertising
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Subscriptions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Talent Workshop
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    CPSC Certificate
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Ratings
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Shop Help
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- RIGHT COLUMN --}}
+                    <div class="rt-col">
+                        <h3>SITES</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    DC
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    MAD Magazine
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    DC Kids
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    DC Universe
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    DC Power Visa
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. All rights reserved.<br><a href="">Cookies Settings</a>.</p>
             </div>
+            {{-- FOOTERLOGO --}}
             <div class="footerLogo">
-                logo....
+                <img src="../images/logo-footer.png" alt="logo dc">
             </div>
         </div>
-        <div class="contacts">
+    </div>
+    {{-- CONTACTS --}}
+    <div class="contacts">
+        <div class="containerLarge">
             <div class="signup">
                 sign up button...
             </div>

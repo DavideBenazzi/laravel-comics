@@ -12,7 +12,7 @@
             <ul class="comicsList">
                 @foreach ($comics as $comic)
                     <li>
-                        <a href="">
+                        <a href="{{ route('comic-detail' , $comic['id']) }}">
                             <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
                             <p>{{ $comic['title'] }}</p>
                         </a>

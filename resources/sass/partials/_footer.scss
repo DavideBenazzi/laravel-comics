@@ -1,0 +1,46 @@
+// FOOTER
+footer {
+    height: 400px;
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 1rem 0;
+    overflow: hidden;
+    .links {
+        display: flex;
+        justify-content: space-between;
+        .wrapFooterLinks {
+            width: 50%;
+            .footerLinks {
+                display: flex;
+                justify-content: flex-start;
+                h3 {
+                    color: $primary;
+                }
+                .lt-col {
+    
+                }
+            }
+        }
+        .footerLogo {
+            width: 50%;
+            img {
+                width: 100%;
+                transform: translateY(-25%);
+            }
+        }
+    }
+    .contacts {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: $quaternary;
+        .containerLarge {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+    }
+}

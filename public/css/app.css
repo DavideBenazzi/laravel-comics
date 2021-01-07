@@ -81,3 +81,60 @@ main .comicsList {
 main .comicsList img {
   width: 100%;
 }
+
+.currentHero {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.currentHero img {
+  width: 100%;
+}
+.currentHero .cover {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+footer {
+  height: 400px;
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
+}
+footer .links .wrapFooterLinks {
+  width: 50%;
+}
+footer .links .wrapFooterLinks .footerLinks {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .links .wrapFooterLinks .footerLinks h3 {
+  color: #fff;
+}
+footer .links .footerLogo {
+  width: 50%;
+}
+footer .links .footerLogo img {
+  width: 100%;
+  transform: translateY(-25%);
+}
+footer .contacts {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #303030;
+}
+footer .contacts .containerLarge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}

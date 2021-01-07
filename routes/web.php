@@ -12,5 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// HOME
 Route::get('/', 'HomeController@index')->name('home');
+
+// COMIC DETAIL
+route::get('/comic/{id}' , 'ComicController@show')->name('comic-detail');
