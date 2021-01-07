@@ -1,0 +1,17 @@
+main {
+    height: 100%;
+    .hero {
+        height: 400px;
+        background-image: url('../images/bg-hero-home.jpg');
+        background-size: cover;
+    }
+    .comicsList {
+        margin: 2rem 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(180px , 1fr));
+        grid-gap: 1rem;
+        img {
+            width: 100%;
+        }
+    }
+}

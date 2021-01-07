@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    // GET COMICS LIST
+    $comics = config('dc-database');
+    // dd($comics);
+    return view('home' , compact('comics'));
 });
