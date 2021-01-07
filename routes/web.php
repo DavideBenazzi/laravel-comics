@@ -13,10 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-
-    // GET COMICS LIST
-    $comics = config('dc-database');
-    // dd($comics);
-    return view('home' , compact('comics'));
-});
+Route::get('/', 'HomeController@index')->name('home');

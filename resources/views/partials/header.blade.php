@@ -15,7 +15,9 @@
     {{-- HEADERBOTTOM --}}
     <nav class="headerBottom">
         <div class="containerLarge navbarBottom">
-            <img src="{{ asset('images/logo.png') }}" alt="DC logo">
+            <a href="{{ route('home') }}">
+                <img src="{{ asset('images/logo.png') }}" alt="DC logo">
+            </a>
             <ul>
                 <li>
                     <a href="/">CHARACTERS</a>
