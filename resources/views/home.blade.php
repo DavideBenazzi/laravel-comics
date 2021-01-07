@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.main')
 
-        <title>Laravel-comics</title>
+{{-- HEADER --}}
+@section('contentHeader')
+    <header>HEADER CONTENT HERE!!!</header>    
+@endsection
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    </head>
-    <body>
-        ok!!!
-        
-    </body>
-</html>
+{{-- MAIN --}}
+@section('contentMain')
+    <main>MAIN CONTENT HERE!!!</main>
+@endsection
+
+{{-- FOOTER --}}
+@section('contentFooter')
+    <main>FOOTER CONTENT HERE!!!</main>
+@endsection
