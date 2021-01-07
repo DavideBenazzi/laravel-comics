@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// TYPOGRAPHY
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+        };
+    };
+// LAYOUT
+height: 100vh;
+    display: flex;
+    flex-direction: column;
+    main {
+        flex-grow: 1;
+    }
+}
+

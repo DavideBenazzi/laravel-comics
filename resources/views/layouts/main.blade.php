@@ -4,19 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel-comics</title>
-
+        {{-- FONTAWESOME --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         {{-- CSS --}}
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        
+        <title>Laravel-comics</title>
     </head>
     <body>
         {{-- HEADER --}}
-        @yield('contentHeader')
+        @include('partials.header')
+        
         {{-- MAIN --}}
-        @yield('contentMain')
+        @yield('content')
+
         {{-- FOOTER --}}
-        @yield('contentFooter')
+        @include('partials.footer')
     </body>
 </html>

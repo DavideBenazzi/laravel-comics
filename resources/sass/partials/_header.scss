@@ -1,0 +1,35 @@
+// HEADERTOP
+.headerTop {
+    background-color: $tertiary;
+    .navbarTop {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem 0 1rem;
+        a {
+            color: $primary;
+            margin-left: 1rem;
+        }
+    }
+}
+
+// HEADERBOTTOM
+.headerBottom {
+    background-color: $primary;
+    .navbarBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0 1rem;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                padding: 0 1rem;
+                a {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}
