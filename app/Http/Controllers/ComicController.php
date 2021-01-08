@@ -20,10 +20,10 @@ class ComicController extends Controller
                 break;
             }
 
-            if (empty($comic)) {
-                abort(404);
-            }
         }
-        return view('comics.show' , compact('comic'));
+        if (empty($comic)) {
+            abort(404);
+        }
+            return view('comics.show' , compact('comic'));
     }
 }
