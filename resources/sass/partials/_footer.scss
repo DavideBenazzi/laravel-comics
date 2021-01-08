@@ -1,6 +1,6 @@
 // FOOTER
 footer {
-    height: 400px;
+    height: 500px;
     background-image: url('../images/footer-bg.jpg');
     background-size: cover;
     position: relative;
@@ -17,8 +17,25 @@ footer {
                 h3 {
                     color: $primary;
                 }
-                .lt-col {
-    
+                .col {
+                    margin-right: 2rem;
+                    margin-bottom: 1rem;
+                    li {
+                        padding: .3rem 0;
+                        a {
+                            color: rgba($primary , 0.5);
+                            &:hover {
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+            p {
+                color: rgba($primary , 0.5);
+                a {
+                    color: $tertiary;
+                    text-decoration: none;
                 }
             }
         }
@@ -31,7 +48,7 @@ footer {
         }
     }
     .contacts {
-        height: 50px;
+        // height: 50px;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -41,6 +58,37 @@ footer {
             justify-content: space-between;
             align-items: center;
             padding: 1rem 0;
+            .signup {
+                border: 2px solid $tertiary;
+                padding: 1rem;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgba($primary , 0.2);
+                }
+                h3 {
+                    color: $primary;
+                }
+            }
+            .followus {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4 {
+                    color: $tertiary;
+                    padding-right: 1rem;
+                }
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    li {
+                        padding-left: 1rem;
+                        a {
+                            color: rgba($primary , 0.5);
+                        }
+                    }
+                }
+            }
         }
     }
 }

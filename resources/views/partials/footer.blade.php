@@ -7,7 +7,7 @@
                 {{-- FOOTERLINKS --}}
                 <div class="footerLinks">
                     {{-- LEFT COLUMN --}}
-                    <div class="lt-col">
+                    <div class="col">
                         <h3>DC COMICS</h3>
                         <ul>
                             <li>
@@ -61,7 +61,7 @@
                         </ul>
                     </div>
                     {{-- CENTER COLUMN --}}
-                    <div class="cnt-col">
+                    <div class="col">
                         <h3>DC</h3>
                         <ul>
                             <li>
@@ -122,7 +122,7 @@
                         </ul>
                     </div>
                     {{-- RIGHT COLUMN --}}
-                    <div class="rt-col">
+                    <div class="col">
                         <h3>SITES</h3>
                         <ul>
                             <li>
@@ -153,7 +153,7 @@
                         </ul>
                     </div>
                 </div>
-                <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. All rights reserved.<br><a href="">Cookies Settings</a>.</p>
+                <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. All rights reserved.<br><br><a href="">Cookies Settings</a>.</p>
             </div>
             {{-- FOOTERLOGO --}}
             <div class="footerLogo">
@@ -165,10 +165,31 @@
     <div class="contacts">
         <div class="containerLarge">
             <div class="signup">
-                sign up button...
+                <h3>
+                    SIGN-UP NOW!
+                </h3>
             </div>
             <div class="followus">
-                links social...
+                <h4>
+                    FOLLOW US
+                </h4>
+                <ul>
+                    <li>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-pinterest"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-periscope"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

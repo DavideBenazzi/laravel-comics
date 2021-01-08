@@ -97,7 +97,7 @@ main .comicsList img {
 }
 
 footer {
-  height: 400px;
+  height: 500px;
   background-image: url("../images/footer-bg.jpg");
   background-size: cover;
   position: relative;
@@ -118,6 +118,26 @@ footer .links .wrapFooterLinks .footerLinks {
 footer .links .wrapFooterLinks .footerLinks h3 {
   color: #fff;
 }
+footer .links .wrapFooterLinks .footerLinks .col {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+footer .links .wrapFooterLinks .footerLinks .col li {
+  padding: 0.3rem 0;
+}
+footer .links .wrapFooterLinks .footerLinks .col li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .links .wrapFooterLinks .footerLinks .col li a:hover {
+  color: #fff;
+}
+footer .links .wrapFooterLinks p {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .links .wrapFooterLinks p a {
+  color: #0282F9;
+  text-decoration: none;
+}
 footer .links .footerLogo {
   width: 50%;
 }
@@ -126,7 +146,6 @@ footer .links .footerLogo img {
   transform: translateY(-25%);
 }
 footer .contacts {
-  height: 50px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -137,4 +156,35 @@ footer .contacts .containerLarge {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+}
+footer .contacts .containerLarge .signup {
+  border: 2px solid #0282F9;
+  padding: 1rem;
+  cursor: pointer;
+}
+footer .contacts .containerLarge .signup:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+footer .contacts .containerLarge .signup h3 {
+  color: #fff;
+}
+footer .contacts .containerLarge .followus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .contacts .containerLarge .followus h4 {
+  color: #0282F9;
+  padding-right: 1rem;
+}
+footer .contacts .containerLarge .followus ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .contacts .containerLarge .followus ul li {
+  padding-left: 1rem;
+}
+footer .contacts .containerLarge .followus ul li a {
+  color: rgba(255, 255, 255, 0.5);
 }
