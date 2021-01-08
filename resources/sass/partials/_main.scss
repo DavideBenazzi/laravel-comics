@@ -1,5 +1,6 @@
 main {
     height: 100%;
+    background-color: $secondary;
     .hero {
         height: 400px;
         background-image: url('../images/bg-hero-home.jpg');
@@ -12,6 +13,10 @@ main {
         grid-gap: 1rem;
         img {
             width: 100%;
+        }
+        h4 {
+            color: $primary;
+            margin-top: 0.5rem;
         }
     }
 }

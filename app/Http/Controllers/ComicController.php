@@ -24,6 +24,6 @@ class ComicController extends Controller
         if (empty($comic)) {
             abort(404);
         }
-            return view('comics.show' , compact('comic'));
+        return view('comics.show' , compact('comic'));
     }
 }

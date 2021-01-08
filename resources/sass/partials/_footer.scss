@@ -11,6 +11,8 @@ footer {
         justify-content: space-between;
         .wrapFooterLinks {
             width: 50%;
+
+            // FOOTERLINKS
             .footerLinks {
                 display: flex;
                 justify-content: flex-start;
@@ -47,8 +49,9 @@ footer {
             }
         }
     }
+
+    // CONTACTS
     .contacts {
-        // height: 50px;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -58,6 +61,8 @@ footer {
             justify-content: space-between;
             align-items: center;
             padding: 1rem 0;
+
+            // SIGNUP
             .signup {
                 border: 2px solid $tertiary;
                 padding: 1rem;
@@ -69,6 +74,8 @@ footer {
                     color: $primary;
                 }
             }
+
+            // FOLLOWUS
             .followus {
                 display: flex;
                 justify-content: space-between;
@@ -85,6 +92,9 @@ footer {
                         padding-left: 1rem;
                         a {
                             color: rgba($primary , 0.5);
+                            &:hover {
+                                color: $primary;
+                            }
                         }
                     }
                 }

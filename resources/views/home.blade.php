@@ -14,7 +14,7 @@
                     <li>
                         <a href="{{ route('comic-detail' , $comic['slug']) }}">
                             <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
-                            <p>{{ $comic['title'] }}</p>
+                            <h4>{{ $comic['title'] }}</h4>
                         </a>
                     </li>
                 @endforeach

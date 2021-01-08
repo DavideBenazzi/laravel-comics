@@ -164,11 +164,13 @@
     {{-- CONTACTS --}}
     <div class="contacts">
         <div class="containerLarge">
+            {{-- SIGNUP --}}
             <div class="signup">
                 <h3>
                     SIGN-UP NOW!
                 </h3>
             </div>
+            {{-- FOLLOWUS --}}
             <div class="followus">
                 <h4>
                     FOLLOW US

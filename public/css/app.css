@@ -63,9 +63,13 @@ body main {
 .headerBottom .navbarBottom ul li a {
   color: #000;
 }
+.headerBottom .navbarBottom ul li a:hover {
+  color: #0282F9;
+}
 
 main {
   height: 100%;
+  background-color: #000;
 }
 main .hero {
   height: 400px;
@@ -81,6 +85,10 @@ main .comicsList {
 main .comicsList img {
   width: 100%;
 }
+main .comicsList h4 {
+  color: #fff;
+  margin-top: 0.5rem;
+}
 
 .currentHero {
   height: 400px;
@@ -94,6 +102,16 @@ main .comicsList img {
   position: absolute;
   bottom: 0;
   left: 20%;
+}
+
+.container {
+  padding: 2rem 0;
+}
+.container p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin: 2rem 0;
 }
 
 footer {
@@ -187,4 +205,7 @@ footer .contacts .containerLarge .followus ul li {
 }
 footer .contacts .containerLarge .followus ul li a {
   color: rgba(255, 255, 255, 0.5);
+}
+footer .contacts .containerLarge .followus ul li a:hover {
+  color: #fff;
 }
