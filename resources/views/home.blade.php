@@ -3,12 +3,14 @@
 {{-- MAIN --}}
 @section('content')
     <main>
+        {{-- HERO --}}
         <section class="hero">
             <div class="current container">
-                <img src="{{ asset('images/cover-home.jpg') }}" alt="">
+                <img src="{{ asset('images/cover-home.jpg') }}" alt="teen titans cover">
             </div>
         </section>
         <section class="comics container">
+            {{-- COMICSLIST --}}
             <ul class="comicsList">
                 @foreach ($comics as $comic)
                     <li>

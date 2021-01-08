@@ -76,6 +76,9 @@ main .hero {
   background-image: url("../images/bg-hero-home.jpg");
   background-size: cover;
 }
+main .hero .current {
+  padding-top: 6.5rem;
+}
 main .comicsList {
   margin: 2rem 0 2rem;
   display: grid;
@@ -115,7 +118,7 @@ main .comicsList h4 {
 }
 
 footer {
-  height: 500px;
+  height: 550px;
   background-image: url("../images/footer-bg.jpg");
   background-size: cover;
   position: relative;

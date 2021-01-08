@@ -1,11 +1,16 @@
 main {
     height: 100%;
     background-color: $secondary;
+    // HERO
     .hero {
         height: 400px;
         background-image: url('../images/bg-hero-home.jpg');
         background-size: cover;
+        .current {
+            padding-top: 6.5rem;
+        }
     }
+    // COMICSLIST
     .comicsList {
         margin: 2rem 0 2rem;
         display: grid;
